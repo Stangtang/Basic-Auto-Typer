@@ -5,6 +5,7 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
+#include <conio.h> // getch() 
 
 using namespace std;
 
@@ -86,6 +87,6 @@ int main() {
     string fileContent = readFile(fileName);
     wstring wideContent = utf8ToWide(fileContent);
     typeText(wideContent);
-
+    getch();
     return 0;
 }
