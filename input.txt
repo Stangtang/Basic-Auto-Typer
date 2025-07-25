@@ -1,0 +1,6 @@
+this is some test text
+this text will get typed automatically
+
+ha ha ha ha ha
+
+test
